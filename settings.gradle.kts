@@ -4,11 +4,12 @@ pluginManagement {
         maven("https://maven.pkg.jetbrains.space/public/p/compose/dev")
         google()
         maven("https://maven.pkg.jetbrains.space/kotlin/p/wasm/experimental")
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/bootstrap")
     }
 
     plugins {
-        val kotlinVersion = "1.8.20"
-        val composeVersion = "1.4.0-dev-wasm06"
+        val kotlinVersion = "1.9.0-dev-6976"
+        val composeVersion = "1.4.0-dev-wasm08"
 
         kotlin("jvm") version kotlinVersion
         kotlin("multiplatform") version kotlinVersion

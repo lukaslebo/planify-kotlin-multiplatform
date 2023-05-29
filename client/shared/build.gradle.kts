@@ -23,6 +23,15 @@ kotlin {
                 @OptIn(org.jetbrains.compose.ExperimentalComposeLibrary::class)
                 implementation(compose.components.resources)
                 implementation(project(":common"))
+
+//                implementation("io.ktor:ktor-client-core:2.3.1-wasm0")
+//                implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.1-wasm0")
+//                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0-RC-wasm0")
+            }
+        }
+
+        val wasmMain by getting {
+            dependencies {
             }
         }
     }
